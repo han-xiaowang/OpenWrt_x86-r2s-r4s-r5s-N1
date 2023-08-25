@@ -25,6 +25,9 @@ env:
   TOKEN_KIDDIN9: ${{ secrets.TOKEN_KIDDIN9 }}
   TZ: Asia/Shanghai
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: Ubuntu-22.04
